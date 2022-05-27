@@ -1,5 +1,5 @@
 import argparse
-from lib.watcher import Watcher
+from ..common.lib.watcher import Watcher
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Watcher for a list of tasks/tables by reading YAML configuration file')
